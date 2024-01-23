@@ -31,6 +31,7 @@ This section outlines the main features of the app:
 
 ## Demo Instructions
 This section outlines the instructions for the demo.
+
 Notes:
 - The Server class takes in any valid port number as an argument.
 - The Client class takes in any valid hostname and port number as arguments.
@@ -58,7 +59,7 @@ Step 10: Enter \q at each client window to disconnect each client from the serve
 
 Step 11: Enter \close at the server window to shut down the server<br>
 
-Error Tests:
+<b>Error Tests:</b>
 - Enter java ie.atu.client.Client localhost 14 while the server is not running.
 - Enter \close at the server window while multiple clients are still connected to the server.
 
