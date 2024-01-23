@@ -36,17 +36,17 @@ Notes:
 - The Client class takes in any valid hostname and port number as arguments.
 - The demo instructions are written for Mac OS.
 
-Step 1:   Open a terminal window from the folder titled src
-Step 2:   Enter javac ie/atu/server/*.java to compile the code
-Step 3:   Enter java ie.atu.server.Server 14 to launch the server
-Step 4:   Open another terminal window from the folder titled src
-Step 5:   Enter javac ie/atu/client/*.java to compile the code
-Step 6:   Enter java ie.atu.client.Client localhost 14 to connect the client to the server.
-Step 7:   Enter your user name at the client window
-Step 8:   Repeat step 4, step 6 and step 7 to connect additional clients (skip step 5)
-Step 9:   Enter typed text at each terminal window to stream messages
-Step 10:  Enter \q at each client window to disconnect each client from the server
-Step 11:  Enter \close at the server window to shut down the server
+Step 1: Open a terminal window from the folder titled src
+Step 2: Enter javac ie/atu/server/*.java to compile the code
+Step 3: Enter java ie.atu.server.Server 14 to launch the server
+Step 4: Open another terminal window from the folder titled src
+Step 5: Enter javac ie/atu/client/*.java to compile the code
+Step 6: Enter java ie.atu.client.Client localhost 14 to connect the client to the server.
+Step 7: Enter your user name at the client window
+Step 8: Repeat step 4, step 6 and step 7 to connect additional clients (skip step 5)
+Step 9: Enter typed text at each terminal window to stream messages
+Step 10: Enter \q at each client window to disconnect each client from the server
+Step 11: Enter \close at the server window to shut down the server
 
 Error Tests:
 - Enter java ie.atu.client.Client localhost 14 while the server is not running.
